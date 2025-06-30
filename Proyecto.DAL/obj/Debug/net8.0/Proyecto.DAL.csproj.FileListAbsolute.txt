@@ -1,0 +1,12 @@
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\bin\Debug\net8.0\Proyecto.DAL.deps.json
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\bin\Debug\net8.0\Proyecto.DAL.dll
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\bin\Debug\net8.0\Proyecto.DAL.pdb
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\obj\Debug\net8.0\Proyecto.DAL.csproj.AssemblyReference.cache
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\obj\Debug\net8.0\Proyecto.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\obj\Debug\net8.0\Proyecto.DAL.AssemblyInfoInputs.cache
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\obj\Debug\net8.0\Proyecto.DAL.AssemblyInfo.cs
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\obj\Debug\net8.0\Proyecto.DAL.csproj.CoreCompileInputs.cache
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\obj\Debug\net8.0\Proyecto.DAL.dll
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\obj\Debug\net8.0\refint\Proyecto.DAL.dll
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\obj\Debug\net8.0\Proyecto.DAL.pdb
+C:\Users\joaqu\source\repos\PruebaTecnica\Proyecto.DAL\obj\Debug\net8.0\ref\Proyecto.DAL.dll

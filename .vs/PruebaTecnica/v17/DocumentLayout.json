@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.dal\\dataaccess\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|solutionrelative:proyecto.dal\\dataaccess\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.dal\\dataaccess\\regiondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|solutionrelative:proyecto.dal\\dataaccess\\regiondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.dal\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|solutionrelative:proyecto.dal\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF48B049-3CE8-44ED-BF05-9EA351A3F782}|Proyecto.API\\Proyecto.API.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.api\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF48B049-3CE8-44ED-BF05-9EA351A3F782}|Proyecto.API\\Proyecto.API.csproj|solutionrelative:proyecto.api\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.dal\\dataaccess\\comunadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|solutionrelative:proyecto.dal\\dataaccess\\comunadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF48B049-3CE8-44ED-BF05-9EA351A3F782}|Proyecto.API\\Proyecto.API.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.api\\controllers\\comunacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF48B049-3CE8-44ED-BF05-9EA351A3F782}|Proyecto.API\\Proyecto.API.csproj|solutionrelative:proyecto.api\\controllers\\comunacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\views\\region\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\views\\region\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\services\\regionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\services\\regionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\models\\regioneditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\models\\regioneditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\models\\regionindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\models\\regionindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\controllers\\comunacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\controllers\\comunacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\views\\comuna\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\views\\comuna\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\views\\comuna\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\views\\comuna\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\models\\comunalistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\models\\comunalistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\models\\comunaeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\models\\comunaeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.dal\\proyecto.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|solutionrelative:proyecto.dal\\proyecto.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.dal\\models\\informacionadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67210162-1A9F-44F7-8CD7-8F655A1270FF}|Proyecto.DAL\\Proyecto.DAL.csproj|solutionrelative:proyecto.dal\\models\\informacionadicional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|c:\\users\\joaqu\\source\\repos\\pruebatecnica\\proyecto.webmvc\\services\\comunaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97516EF5-E49C-45D9-B230-99659386AA2A}|Proyecto.WebMVC\\Proyecto.WebMVC.csproj|solutionrelative:proyecto.webmvc\\services\\comunaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Program.cs",
+              "RelativeToolTip": "Proyecto.WebMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:43:05.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\DataAccess\\DbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Proyecto.DAL\\DataAccess\\DbConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\DataAccess\\DbConnectionFactory.cs",
+              "RelativeToolTip": "Proyecto.DAL\\DataAccess\\DbConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:42:56.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegionService.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Services\\RegionService.cs",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Services\\RegionService.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Services\\RegionService.cs",
+              "RelativeToolTip": "Proyecto.WebMVC\\Services\\RegionService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:38:53.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegionController.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.API\\Controllers\\RegionController.cs",
+              "RelativeDocumentMoniker": "Proyecto.API\\Controllers\\RegionController.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.API\\Controllers\\RegionController.cs",
+              "RelativeToolTip": "Proyecto.API\\Controllers\\RegionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:55:22.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegionDAL.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\DataAccess\\RegionDAL.cs",
+              "RelativeDocumentMoniker": "Proyecto.DAL\\DataAccess\\RegionDAL.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\DataAccess\\RegionDAL.cs",
+              "RelativeToolTip": "Proyecto.DAL\\DataAccess\\RegionDAL.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwEIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T01:49:14.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\Region\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Views\\Region\\Index.cshtml",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\Region\\Index.cshtml",
+              "RelativeToolTip": "Proyecto.WebMVC\\Views\\Region\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAApwDkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T01:08:07.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ComunaController.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.API\\Controllers\\ComunaController.cs",
+              "RelativeDocumentMoniker": "Proyecto.API\\Controllers\\ComunaController.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.API\\Controllers\\ComunaController.cs",
+              "RelativeToolTip": "Proyecto.API\\Controllers\\ComunaController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:53:15.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComunaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\DataAccess\\ComunaDAL.cs",
+              "RelativeDocumentMoniker": "Proyecto.DAL\\DataAccess\\ComunaDAL.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\DataAccess\\ComunaDAL.cs",
+              "RelativeToolTip": "Proyecto.DAL\\DataAccess\\ComunaDAL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T00:41:12.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegionIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Models\\RegionIndexViewModel.cs",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Models\\RegionIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Models\\RegionIndexViewModel.cs",
+              "RelativeToolTip": "Proyecto.WebMVC\\Models\\RegionIndexViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:04:44.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\Models\\Region.cs",
+              "RelativeDocumentMoniker": "Proyecto.DAL\\Models\\Region.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\Models\\Region.cs",
+              "RelativeToolTip": "Proyecto.DAL\\Models\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:38:42.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Proyecto.WebMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T22:49:56.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Proyecto.WebMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T22:49:58.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegionEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Models\\RegionEditViewModel.cs",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Models\\RegionEditViewModel.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Models\\RegionEditViewModel.cs",
+              "RelativeToolTip": "Proyecto.WebMVC\\Models\\RegionEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:40:35.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegionController.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Controllers\\RegionController.cs",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Controllers\\RegionController.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Controllers\\RegionController.cs",
+              "RelativeToolTip": "Proyecto.WebMVC\\Controllers\\RegionController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAcwHwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:35:28.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ComunaController.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Controllers\\ComunaController.cs",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Controllers\\ComunaController.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Controllers\\ComunaController.cs",
+              "RelativeToolTip": "Proyecto.WebMVC\\Controllers\\ComunaController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAApwHgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T00:20:49.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Proyecto.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\Proyecto.DAL.csproj",
+              "RelativeDocumentMoniker": "Proyecto.DAL\\Proyecto.DAL.csproj",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\Proyecto.DAL.csproj",
+              "RelativeToolTip": "Proyecto.DAL\\Proyecto.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-17T00:41:07.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ComunaListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Models\\ComunaListViewModel.cs",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Models\\ComunaListViewModel.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Models\\ComunaListViewModel.cs",
+              "RelativeToolTip": "Proyecto.WebMVC\\Models\\ComunaListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T00:34:58.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\Comuna\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Views\\Comuna\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\Comuna\\Edit.cshtml",
+              "RelativeToolTip": "Proyecto.WebMVC\\Views\\Comuna\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T01:15:38.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Proyecto.WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T03:09:06.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\Comuna\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Views\\Comuna\\Index.cshtml",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\Comuna\\Index.cshtml",
+              "RelativeToolTip": "Proyecto.WebMVC\\Views\\Comuna\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T00:35:29.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ComunaEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Models\\ComunaEditViewModel.cs",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Models\\ComunaEditViewModel.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Models\\ComunaEditViewModel.cs",
+              "RelativeToolTip": "Proyecto.WebMVC\\Models\\ComunaEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T01:42:05.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Proyecto.WebMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T01:38:50.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ComunaService.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Services\\ComunaService.cs",
+              "RelativeDocumentMoniker": "Proyecto.WebMVC\\Services\\ComunaService.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.WebMVC\\Services\\ComunaService.cs",
+              "RelativeToolTip": "Proyecto.WebMVC\\Services\\ComunaService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:13:21.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "InformacionAdicional.cs",
+              "DocumentMoniker": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\Models\\InformacionAdicional.cs",
+              "RelativeDocumentMoniker": "Proyecto.DAL\\Models\\InformacionAdicional.cs",
+              "ToolTip": "C:\\Users\\joaqu\\source\\repos\\PruebaTecnica\\Proyecto.DAL\\Models\\InformacionAdicional.cs",
+              "RelativeToolTip": "Proyecto.DAL\\Models\\InformacionAdicional.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:29:13.31Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

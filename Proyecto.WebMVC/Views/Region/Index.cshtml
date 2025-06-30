@@ -1,0 +1,153 @@
+﻿@model Proyecto.WebMVC.Models.RegionIndexViewModel
+@{
+    ViewData["Title"] = "Listado de Regiones";
+}
+
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<div class="container mt-4">
+    <h2>Regiones</h2>
+
+    <table class="table table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var region in Model.Regiones)
+            {
+                <tr>
+                    <td>@region.IdRegion</td>
+                    <td>
+                        <form class="row-form d-flex align-items-center"
+                              asp-controller="Region"
+                              asp-action="Edit"
+                              method="post"
+                              data-original-name="@region.NombreRegion">
+                            @Html.AntiForgeryToken()
+                            <input name="IdRegion"
+                                   type="hidden"
+                                   value="@region.IdRegion" />
+
+                            <input name="NombreRegion"
+                                   value="@region.NombreRegion"
+                                   class="form-control form-control-plaintext me-2 flex-fill"
+                                   readonly
+                                   maxlength="128" />
+
+                            <div class="btn-group">
+                                <button type="button"
+                                        class="btn btn-sm btn-outline-secondary btn-edit">
+                                    <i class="bi bi-pencil-square"></i>
+                                    Editar
+                                </button>
+                                <button type="submit"
+                                        class="btn btn-sm btn-primary btn-save d-none">
+                                    <i class="bi bi-check-lg"></i>
+                                    Guardar
+                                </button>
+                                <button type="button"
+                                        class="btn btn-sm btn-secondary btn-cancel d-none">
+                                    <i class="bi bi-x-lg"></i>
+                                    Cancelar
+                                </button>
+
+                            </div>
+                        </form>
+                    </td>
+                    <td>
+                        <a asp-controller="Comuna"
+                           asp-action="Index"
+                           asp-route-regionId="@region.IdRegion"
+                           class="btn btn-sm btn-outline-primary">
+                            <i class="bi bi-list-ul me-1"></i>
+                            Comunas
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <hr class="my-5" />
+
+    <h4>Agregar Nueva Región</h4>
+    <form id="createRegionForm" asp-action="Crear" method="post">
+        @Html.AntiForgeryToken()
+        <div class="mb-3">
+            <label asp-for="NuevaRegionNombre" class="form-label"></label>
+            <input asp-for="NuevaRegionNombre"
+                   class="form-control"
+                   maxlength="128" />
+            <span asp-validation-for="NuevaRegionNombre" class="text-danger"></span>
+        </div>
+        <div class="d-flex gap-2">
+            <button type="submit"
+                    class="btn btn-primary flex-fill">
+                <i class="bi bi-plus-lg me-1"></i>
+                Crear región
+            </button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <script>
+        // Inline edit handlers
+        document.querySelectorAll('.row-form').forEach(form => {
+            const input     = form.querySelector('input[name="NombreRegion"]');
+            const btnEdit   = form.querySelector('.btn-edit');
+            const btnSave   = form.querySelector('.btn-save');
+            const btnCancel = form.querySelector('.btn-cancel');
+            const original  = form.dataset.originalName;
+
+            btnEdit.addEventListener('click', () => {
+                input.readOnly = false;
+                input.classList.replace('form-control-plaintext', 'form-control');
+                btnEdit.classList.add('d-none');
+                btnSave.classList.remove('d-none');
+                btnCancel.classList.remove('d-none');
+            });
+
+            btnCancel.addEventListener('click', () => {
+                input.value = original;
+                input.readOnly = true;
+                input.classList.replace('form-control', 'form-control-plaintext');
+                btnEdit.classList.remove('d-none');
+                btnSave.classList.add('d-none');
+                btnCancel.classList.add('d-none');
+            });
+
+            form.addEventListener('submit', e => {
+                if (!input.value.trim()) {
+                    alert('El nombre de la región no puede estar vacío.');
+                    e.preventDefault();
+                    return;
+                }
+                if (input.value.trim().length > 128) {
+                    alert('El nombre no puede exceder 128 caracteres.');
+                    e.preventDefault();
+                    return;
+                }
+                if (!confirm('¿Está seguro que desea guardar los cambios?')) {
+                    e.preventDefault();
+                }
+            });
+        });
+
+        // Create region handler
+        document.getElementById('createRegionForm').addEventListener('submit', function(e) {
+            if (!this.checkValidity()) return;
+            if (!confirm('¿Está seguro que desea crear esta región?')) {
+                e.preventDefault();
+            }
+        });
+    </script>
+}

@@ -1,0 +1,179 @@
+[
+  {
+    "ContainingType": "Proyecto.API.Controllers.RegionController",
+    "Method": "GetAll",
+    "RelativePath": "region",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Proyecto.DAL.Models.Region, Proyecto.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto.API.Controllers.RegionController",
+    "Method": "Save",
+    "RelativePath": "region",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "region",
+        "Type": "Proyecto.DAL.Models.Region",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto.API.Controllers.RegionController",
+    "Method": "GetById",
+    "RelativePath": "region/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto.DAL.Models.Region",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto.API.Controllers.RegionController",
+    "Method": "Delete",
+    "RelativePath": "region/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto.API.Controllers.ComunaController",
+    "Method": "GetPorRegion",
+    "RelativePath": "region/{idRegion}/comuna",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRegion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Proyecto.DAL.Models.Comuna, Proyecto.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto.API.Controllers.ComunaController",
+    "Method": "Guardar",
+    "RelativePath": "region/{idRegion}/comuna",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRegion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "comuna",
+        "Type": "Proyecto.DAL.Models.Comuna",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto.API.Controllers.ComunaController",
+    "Method": "GetPorId",
+    "RelativePath": "region/{idRegion}/comuna/{idComuna}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRegion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idComuna",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Proyecto.DAL.Models.Comuna",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Proyecto.API.Controllers.ComunaController",
+    "Method": "Eliminar",
+    "RelativePath": "region/{idRegion}/comuna/{idComuna}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRegion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idComuna",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

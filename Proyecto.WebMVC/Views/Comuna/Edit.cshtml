@@ -1,0 +1,81 @@
+﻿@model Proyecto.WebMVC.Models.ComunaEditViewModel
+
+@{
+    ViewData["Title"] = "Editar Comuna";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    @if (TempData["Exito"] != null)
+    {
+        <div class="alert alert-success">@TempData["Exito"]</div>
+    }
+
+    <form id="editComunaForm" asp-action="Edit" method="post">
+        @Html.AntiForgeryToken()
+
+        <!-- Hidden fields -->
+        <input type="hidden" asp-for="IdRegion" />
+        <input type="hidden" asp-for="IdComuna" />
+
+        <!-- Nombre de la comuna -->
+        <div class="mb-3">
+            <label asp-for="NombreComuna" class="form-label">Nombre de la comuna</label>
+            <input asp-for="NombreComuna" class="form-control" maxlength="128" />
+            <span asp-validation-for="NombreComuna" class="text-danger"></span>
+        </div>
+
+        <!-- Superficie -->
+        <div class="mb-3">
+            <label asp-for="Superficie" class="form-label">Superficie</label>
+            <input asp-for="Superficie" class="form-control" />
+            <span asp-validation-for="Superficie" class="text-danger"></span>
+        </div>
+
+        <!-- Población -->
+        <div class="mb-3">
+            <label asp-for="Poblacion" class="form-label">Población</label>
+            <input asp-for="Poblacion" class="form-control" />
+            <span asp-validation-for="Poblacion" class="text-danger"></span>
+        </div>
+
+        <!-- Densidad -->
+        <div class="mb-3">
+            <label asp-for="Densidad" class="form-label">Densidad</label>
+            <input asp-for="Densidad" class="form-control" />
+            <span asp-validation-for="Densidad" class="text-danger"></span>
+        </div>
+
+        <!-- Botones igual de ancho -->
+        <div class="d-flex gap-2 mt-4">
+            <a asp-controller="Comuna"
+               asp-action="Index"
+               asp-route-regionId="@Model.IdRegion"
+               class="btn btn-outline-secondary flex-fill">
+                <i class="bi bi-arrow-left me-1"></i>
+                Volver a Comunas
+            </a>
+            <button type="submit" class="btn btn-primary flex-fill">
+                <i class="bi bi-check-lg me-1"></i>
+                Guardar cambios
+            </button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <script>
+        document.getElementById('editComunaForm').addEventListener('submit', function (e) {
+            // Primero deja que las validaciones de jQuery Unobtrusive se ejecuten
+            if (!this.checkValidity()) {
+                return;
+            }
+            // Si todo válido, pide confirmación
+            if (!confirm('¿Está seguro que desea guardar los cambios?')) {
+                e.preventDefault();
+            }
+        });
+    </script>
+}
